@@ -18,11 +18,11 @@ The expected JSON format is
 	  "Hostname": "localhost",
 	  "Architecture": "amd64",
 	  "GoVersion": "1.1.1",
-	  "SourceUrl": "https://github.com/hailocab/build-service/commit/53d6db9a88494e948b64415f53e1bf9da7efcc4b",
+	  "SourceUrl": "https://github.com/HailoOSS/build-service/commit/53d6db9a88494e948b64415f53e1bf9da7efcc4b",
 	  "BinaryUrl": "http://s3.amazon.com/abcdefg",
 	  "Version": "20130627091746",
 	  "Language": "Go",
-	  "Name": "com.hailocab.kernel.build-service",
+	  "Name": "com.HailoOSS.kernel.build-service",
 	  "TimeStamp": 1372346773
 	}
 ```
@@ -46,14 +46,14 @@ will include:
     Go version, architecture etc.)
   - sourceurl (the Github URL that prompted the build, down to the level of the
     exact commit hash)
-  - service (fully qualified service name, eg: com.hailocab.kernel.discovery)
+  - service (fully qualified service name, eg: com.HailoOSS.kernel.discovery)
   - version (actually a date, eg: 20130601114431)
   - type (enum of Java/Go)
   - binaryurl (the location of the go binary or jar)
 
 ### Installation
 
-    go get github.com/hailocab/build-service
+    go get github.com/HailoOSS/build-service
     
 build-service should now be in your go/bin directory
 
