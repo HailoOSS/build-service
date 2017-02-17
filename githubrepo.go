@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"time"
 
-	"code.google.com/p/goauth2/oauth"
 	"github.com/andreas/go-github/github"
 	"github.com/gregjones/httpcache"
+	"github.com/robfig/goauth2/oauth"
 )
 
 var (
